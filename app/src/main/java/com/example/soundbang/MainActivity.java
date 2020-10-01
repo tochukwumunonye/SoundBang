@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
     }
 
+
     @RequiresApi(api = Build.VERSION_CODES.R)
     private void permission() {
         if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE)
